@@ -9,7 +9,7 @@
 
 # Authors
 
-- [@SyedaMahamFahim](https://github.com/SyedaMahamFahim/)
+- [@Zeeshan2125]
 
 ## Tech Stack
 - React
