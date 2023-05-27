@@ -50,23 +50,22 @@ const HeaderThree = ({
         </div>
       </div>
       <div
-        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${scroll > headerTop ? "stick" : ""
+          }`}
       >
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-6">
-              <div className="center-menu-logo text-left text-lg-center"  style={{
-              fontSize: "15px",
-              fontWeight: 800,
-              
-            }}>
+              <div className="center-menu-logo text-left text-lg-center" style={{
+                fontSize: "15px",
+                fontWeight: 800,
+
+              }}>
                 {/* header logo */}
                 <Link to="/">
-                Flower for Thought
+                  Ex Bouquet
                 </Link>
-                
+
               </div>
             </div>
             <div className="col-6 d-block d-lg-none">

@@ -56,10 +56,10 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
               lineHeight: 1
             }}>
               <Link className="sticky-none" to={process.env.PUBLIC_URL + "/"}>
-              Flower for Thought
+              Ex Bouquet
               </Link>
               <Link className="sticky-block" to={process.env.PUBLIC_URL + "/"}>
-              Flower for Thought
+              Ex Bouquet
               </Link>
             </div>
           </div>

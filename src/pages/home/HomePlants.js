@@ -11,9 +11,9 @@ const HomePlants = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flower for Thought.</title>
+        <title>Ex Bouquet.</title>
         <meta
-          name="Flower for Thought"
+          name="Ex Bouquet"
           content="Life is shot. Get more plants.
           "
         />

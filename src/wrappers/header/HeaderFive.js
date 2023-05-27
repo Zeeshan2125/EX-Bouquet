@@ -13,7 +13,7 @@ const HeaderFive = () => {
               
             }}>
         {/* header logo */}
-        Flower for Thought
+        Ex Bouquet
         {/* Icon group */}
         <IconGroup />
         {/* sidebar nav menu */}
@@ -26,7 +26,7 @@ const HeaderFive = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Flower for Thought
+              Ex Bouquet
             </a>
             .All Rights Reserved.
           </p>
@@ -41,7 +41,7 @@ const HeaderFive = () => {
               
             }}>
               {/* header logo */}
-              Flower for Thought
+              Ex Bouquet
             </div>
             <div className="col-xl-10 col-lg-102 col-md-6 col-8">
               {/* Icon group */}

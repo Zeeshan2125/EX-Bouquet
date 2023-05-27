@@ -36,7 +36,7 @@ const HeaderTwo = ({
       <div className="container">
         <div className="header-top-area d-none d-lg-block">
           <div className="row">
-            <div className="col-lg-5 col-md-8 col-12">
+            <div className="col-lg-5 col-md-8 col-12 d-flex" >
               {/* language currency changer */}
               <LanguageCurrencyChanger
                 currency={currency}
@@ -52,9 +52,9 @@ const HeaderTwo = ({
             }}>
               {/* header logo */}
               <Link to="/">
-              Flower for Thought
+              Ex Bouquet
               </Link>
-              
+
             </div>
             <div className="col-lg-5 col-md-4 col-12">
               {/* Icon group */}
@@ -64,20 +64,19 @@ const HeaderTwo = ({
         </div>
       </div>
       <div
-        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${scroll > headerTop ? "stick" : ""
+          }`}
       >
         <div className="container">
           <div className="row">
             <div className="col-6 d-block d-lg-none"
-            style={{
-              fontSize: "15px",
-              fontWeight: 800,
-              
-            }}>
+              style={{
+                fontSize: "15px",
+                fontWeight: 800,
+
+              }}>
               {/* header logo */}
-              Flower for Thought
+              Ex Bouquet
             </div>
             <div className="col-6 d-block d-lg-none">
               {/* Icon group */}

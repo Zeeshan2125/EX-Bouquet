@@ -32,16 +32,13 @@ const HeaderOne = ({
 
   return (
     <header
-      className={`header-area clearfix ${headerBgClass ? headerBgClass : ""} ${
-        headerPositionClass ? headerPositionClass : ""
-      }`}
+      className={`header-area clearfix ${headerBgClass ? headerBgClass : ""} ${headerPositionClass ? headerPositionClass : ""
+        }`}
     >
       <div
-        className={`${headerPaddingClass ? headerPaddingClass : ""} ${
-          top === "visible" ? "d-none d-lg-block" : "d-none"
-        } header-top-area ${
-          borderStyle === "fluid-border" ? "border-none" : ""
-        }`}
+        className={`${headerPaddingClass ? headerPaddingClass : ""} ${top === "visible" ? "d-none d-lg-block" : "d-none"
+          } header-top-area ${borderStyle === "fluid-border" ? "border-none" : ""
+          }`}
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
           {/* header top */}
@@ -50,25 +47,23 @@ const HeaderOne = ({
       </div>
 
       <div
-        className={` ${
-          headerPaddingClass ? headerPaddingClass : ""
-        } sticky-bar header-res-padding clearfix ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+        className={` ${headerPaddingClass ? headerPaddingClass : ""
+          } sticky-bar header-res-padding clearfix ${scroll > headerTop ? "stick" : ""
+          }`}
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
           <div className="row">
             <div className="col-xl-2 col-lg-2 col-md-6 col-4" style={{
               fontSize: "30px",
               fontWeight: 800,
-              padding:"20px 0px 10px 0px"
-              
+              padding: "20px 0px 10px 0px"
+
             }}>
               {/* header logo */}
               <Link to="/">
-              Flower for Thought
+                Ex Bouquet
               </Link>
-             
+
             </div>
             <div className="col-xl-8 col-lg-8 d-none d-lg-block">
               {/* Nav menu */}

@@ -1,35 +1,19 @@
 import { SET_CURRENCY } from "../actions/currencyActions";
 
 const initState = {
-  currencySymbol: "€",
-  currencyName: "EUR",
+  currencySymbol: "AED",
+  currencyName: "Dirhams",
   currencyRate: 1
 };
 
 const currencyReducer = (state = initState, action) => {
   if (action.type === SET_CURRENCY) {
     const currencyName = action.payload.currencyName;
-
-    if (currencyName === "USD") {
+    
+    if (currencyName === "Dirhams") {
       return {
         ...state,
-        currencySymbol: "$",
-        currencyRate: action.payload.currencyRate,
-        currencyName
-      };
-    }
-    if (currencyName === "EUR") {
-      return {
-        ...state,
-        currencySymbol: "€",
-        currencyRate: action.payload.currencyRate,
-        currencyName
-      };
-    }
-    if (currencyName === "GBP") {
-      return {
-        ...state,
-        currencySymbol: "£",
+        currencySymbol: "AED",
         currencyRate: action.payload.currencyRate,
         currencyName
       };

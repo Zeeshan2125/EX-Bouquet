@@ -17,7 +17,7 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
       </div>
       <div className="side-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-           Flower for Thought
+        Ex Bouquet
         </Link>
       </div>
       {/* nav menu*/}

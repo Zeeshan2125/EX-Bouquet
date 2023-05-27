@@ -18,7 +18,7 @@ const FooterCopyright = ({ spaceBottomClass, colorClass }) => {
         
         
         >
-        Flower for Thought
+        Ex Bouquet
         </Link>
       </div>
       <p>
@@ -28,7 +28,7 @@ const FooterCopyright = ({ spaceBottomClass, colorClass }) => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flower For Thought
+          Ex Bouquet
         </a>
         .<br /> All Rights Reserved
       </p>

@@ -29,19 +29,19 @@ const IconGroup = ({
       className={`header-right-wrap ${iconWhiteClass ? iconWhiteClass : ""}`}
     >
       <div className="same-style header-search d-none d-lg-block">
-        <button className="search-active" onClick={e => handleClick(e)}>
+        {/* <button className="search-active" onClick={e => handleClick(e)}>
           <i className="pe-7s-search" />
-        </button>
-        <div className="search-content">
+        </button> */}
+        {/* <div className="search-content">
           <form action="#">
             <input type="text" placeholder="Search" />
             <button className="button-search">
               <i className="pe-7s-search" />
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
-      <div className="same-style account-setting d-none d-lg-block">
+      {/* <div className="same-style account-setting d-none d-lg-block">
         <button
           className="account-setting-active"
           onClick={e => handleClick(e)}
@@ -65,53 +65,52 @@ const IconGroup = ({
             </li>
           </ul>
         </div>
-      </div>
-      <div className="same-style header-compare">
+      </div> */}
+      {/* <div className="same-style header-compare">
         <Link to={process.env.PUBLIC_URL + "/compare"}>
           <i className="pe-7s-shuffle" />
           <span className="count-style">
             {compareData && compareData.length ? compareData.length : 0}
           </span>
         </Link>
-      </div>
-      <div className="same-style header-wishlist">
+      </div> */}
+      {/* <div className="same-style header-wishlist">
         <Link to={process.env.PUBLIC_URL + "/wishlist"}>
           <i className="pe-7s-like" />
           <span className="count-style">
             {wishlistData && wishlistData.length ? wishlistData.length : 0}
           </span>
         </Link>
-      </div>
-      <div className="same-style cart-wrap d-none d-lg-block">
+      </div> */}
+      {/* <div className="same-style cart-wrap d-none d-lg-block">
         <button className="icon-cart" onClick={e => handleClick(e)}>
           <i className="pe-7s-shopbag" />
           <span className="count-style">
             {cartData && cartData.length ? cartData.length : 0}
           </span>
         </button>
-        {/* menu cart */}
         <MenuCart
           cartData={cartData}
           currency={currency}
           deleteFromCart={deleteFromCart}
         />
-      </div>
-      <div className="same-style cart-wrap d-block d-lg-none">
+      </div> */}
+      {/* <div className="same-style cart-wrap d-block d-lg-none">
         <Link className="icon-cart" to={process.env.PUBLIC_URL + "/cart"}>
           <i className="pe-7s-shopbag" />
           <span className="count-style">
             {cartData && cartData.length ? cartData.length : 0}
           </span>
         </Link>
-      </div>
-      <div className="same-style mobile-off-canvas d-block d-lg-none">
+      </div> */}
+      {/* <div className="same-style mobile-off-canvas d-block d-lg-none">
         <button
           className="mobile-aside-button"
           onClick={() => triggerMobileMenu()}
         >
           <i className="pe-7s-menu" />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
