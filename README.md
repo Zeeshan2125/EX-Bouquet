@@ -1,2 +1,2 @@
 # EX-Bouquet
-A Flowers or Bouquet Sho[
+A Flowers or Bouquet Shop
