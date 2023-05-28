@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 import FooterCopyright from "../../components/footer/FooterCopyright";
 import FooterNewsletter from "../../components/footer/FooterNewsletter";
+import { FaWhatsapp } from 'react-icons/fa';
 
 const FooterOne = ({
   backgroundColorClass,
@@ -26,6 +27,14 @@ const FooterOne = ({
     };
   }, []);
 
+    const handleRedirect = () => {
+      // Replace `PHONE_NUMBER` with the desired WhatsApp phone number
+      const phoneNumber = '971582539676';
+      const url = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+
+      window.location.href = url;
+    };
+  
   const scrollToTop = () => {
     animateScroll.scrollToTop();
   };
@@ -36,20 +45,16 @@ const FooterOne = ({
 
   return (
     <footer
-      className={`footer-area ${
-        backgroundColorClass ? backgroundColorClass : ""
-      } ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      } ${extraFooterClass ? extraFooterClass : ""} ${
-        spaceLeftClass ? spaceLeftClass : ""
-      } ${spaceRightClass ? spaceRightClass : ""}`}
+      className={`footer-area ${backgroundColorClass ? backgroundColorClass : ""
+        } ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        } ${extraFooterClass ? extraFooterClass : ""} ${spaceLeftClass ? spaceLeftClass : ""
+        } ${spaceRightClass ? spaceRightClass : ""}`}
     >
       <div className={`${containerClass ? containerClass : "container"}`}>
         <div className="row">
           <div
-            className={`${
-              sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
-            }`}
+            className={`${sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
+              }`}
           >
             {/* footer copyright */}
             <FooterCopyright
@@ -58,9 +63,8 @@ const FooterOne = ({
             />
           </div>
           <div
-            className={`${
-              sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
-            }`}
+            className={`${sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
+              }`}
           >
             <div className="footer-widget mb-30 ml-30">
               <div className="footer-title">
@@ -91,16 +95,14 @@ const FooterOne = ({
             </div>
           </div>
           <div
-            className={`${
-              sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
-            }`}
+            className={`${sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
+              }`}
           >
             <div
-              className={`${
-                sideMenu
-                  ? "footer-widget mb-30 ml-95"
-                  : "footer-widget mb-30 ml-50"
-              }`}
+              className={`${sideMenu
+                ? "footer-widget mb-30 ml-95"
+                : "footer-widget mb-30 ml-50"
+                }`}
             >
               <div className="footer-title">
                 <h3>USEFUL LINKS</h3>
@@ -126,23 +128,21 @@ const FooterOne = ({
             </div>
           </div>
           <div
-            className={`${
-              sideMenu ? "col-xl-3 col-sm-4" : "col-lg-2 col-sm-6"
-            }`}
+            className={`${sideMenu ? "col-xl-3 col-sm-4" : "col-lg-2 col-sm-6"
+              }`}
           >
             <div
-              className={`${
-                sideMenu
-                  ? "footer-widget mb-30 ml-145"
-                  : "footer-widget mb-30 ml-75"
-              }`}
+              className={`${sideMenu
+                ? "footer-widget mb-30 ml-145"
+                : "footer-widget mb-30 ml-75"
+                }`}
             >
               <div className="footer-title">
                 <h3>FOLLOW US</h3>
               </div>
               <div className="footer-list">
                 <ul>
-                  <li>
+                  {/* <li>
                     <a
                       href="//www.facebook.com"
                       target="_blank"
@@ -150,8 +150,8 @@ const FooterOne = ({
                     >
                       Facebook
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a
                       href="//www.twitter.com"
                       target="_blank"
@@ -159,7 +159,7 @@ const FooterOne = ({
                     >
                       Twitter
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="//www.instagram.com"
@@ -169,7 +169,7 @@ const FooterOne = ({
                       Instagram
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="//www.youtube.com"
                       target="_blank"
@@ -177,15 +177,14 @@ const FooterOne = ({
                     >
                       Youtube
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
           </div>
           <div
-            className={`${
-              sideMenu ? "col-xl-3 col-sm-8" : "col-lg-4 col-sm-6"
-            }`}
+            className={`${sideMenu ? "col-xl-3 col-sm-8" : "col-lg-4 col-sm-6"
+              }`}
           >
             {/* footer newsletter */}
             <FooterNewsletter
@@ -196,6 +195,9 @@ const FooterOne = ({
           </div>
         </div>
       </div>
+      <button className={"whatsapp"} onClick={handleRedirect}>
+        <FaWhatsapp size={24} />
+      </button>
       <button
         className={`scroll-top ${scroll > top ? "show" : ""}`}
         onClick={() => scrollToTop()}

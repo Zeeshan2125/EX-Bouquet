@@ -3,18 +3,18 @@
     "id": 1,
     "image": "/assets/img/icon-img/support-1.png",
     "title": "Free Shipping",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "Free shipping over 700 AED"
   },
   {
     "id": 2,
     "image": "/assets/img/icon-img/support-2.png",
     "title": "Support 24/7",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "Call any time to for support"
   },
   {
     "id": 3,
     "image": "/assets/img/icon-img/support-3.png",
     "title": "Money Return",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "Cash Back Guarantee"
   }
 ]
