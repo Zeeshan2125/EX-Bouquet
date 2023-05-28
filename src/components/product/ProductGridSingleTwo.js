@@ -47,7 +47,7 @@ const ProductGridSingleTwo = ({
                 src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
               />
-              {product.image.length > 1 ? (
+              {/* {product.image.length > 1 ? (
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
@@ -55,7 +55,7 @@ const ProductGridSingleTwo = ({
                 />
               ) : (
                 ""
-              )}
+              )} */}
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">

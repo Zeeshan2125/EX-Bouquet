@@ -4,19 +4,24 @@ import { Link } from "react-router-dom";
 
 const BannerFourSingle = ({ data, spaceBottomClass }) => {
   return (
-    <div className="col-lg-4 col-md-4">
+    <div className="col-lg-4 col-md-6">
       <div
-        className={`single-banner banner-shape banner-green-color ${
-          spaceBottomClass ? spaceBottomClass : ""
-        }`}
+        className={`single-banner banner-shape banner-green-color ${spaceBottomClass ? spaceBottomClass : ""
+          }`}
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "end",
+          flexWrap: "wrap"
+        }}
       >
         <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
+          <img src={process.env.PUBLIC_URL + data.image} style={{ maxWidth: "220px", minWidth: "220px" }} alt="category" />
         </Link>
         <div className="banner-content">
           <h3>{data.title}</h3>
           <h4>
-            {data.subtitle} <span>{data.price}</span>
+            {data.subtitle}<br></br> <span>{data.price}</span>
           </h4>
           <Link to={process.env.PUBLIC_URL + data.link}>
             <i className="fa fa-long-arrow-right" />
