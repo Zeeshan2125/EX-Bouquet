@@ -150,85 +150,86 @@ const ProductDescriptionInfo = ({
           </div>
         </div>
       ) : (
-        <div className="pro-details-quality">
-          <div className="cart-plus-minus">
-            <button
-              onClick={() =>
-                setQuantityCount(quantityCount > 1 ? quantityCount - 1 : 1)
-              }
-              className="dec qtybutton"
-            >
-              -
-            </button>
-            <input
-              className="cart-plus-minus-box"
-              type="text"
-              value={quantityCount}
-              readOnly
-            />
-            <button
-              onClick={() =>
-                setQuantityCount(
-                  quantityCount < productStock - productCartQty
-                    ? quantityCount + 1
-                    : quantityCount
-                )
-              }
-              className="inc qtybutton"
-            >
-              +
-            </button>
-          </div>
-          <div className="pro-details-cart btn-hover">
-            {productStock && productStock > 0 ? (
-              <button
-                onClick={() =>
-                  addToCart(
-                    product,
-                    addToast,
-                    quantityCount,
-                    selectedProductColor,
-                    selectedProductSize
-                  )
-                }
-                disabled={productCartQty >= productStock}
-              >
-                {" "}
-                Add To Cart{" "}
-              </button>
-            ) : (
-              <button disabled>Out of Stock</button>
-            )}
-          </div>
-          <div className="pro-details-wishlist">
-            <button
-              className={wishlistItem !== undefined ? "active" : ""}
-              disabled={wishlistItem !== undefined}
-              title={
-                wishlistItem !== undefined
-                  ? "Added to wishlist"
-                  : "Add to wishlist"
-              }
-              onClick={() => addToWishlist(product, addToast)}
-            >
-              <i className="pe-7s-like" />
-            </button>
-          </div>
-          <div className="pro-details-compare">
-            <button
-              className={compareItem !== undefined ? "active" : ""}
-              disabled={compareItem !== undefined}
-              title={
-                compareItem !== undefined
-                  ? "Added to compare"
-                  : "Add to compare"
-              }
-              onClick={() => addToCompare(product, addToast)}
-            >
-              <i className="pe-7s-shuffle" />
-            </button>
-          </div>
-        </div>
+        // <div className="pro-details-quality">
+        //   <div className="cart-plus-minus">
+        //     <button
+        //       onClick={() =>
+        //         setQuantityCount(quantityCount > 1 ? quantityCount - 1 : 1)
+        //       }
+        //       className="dec qtybutton"
+        //     >
+        //       -
+        //     </button>
+        //     <input
+        //       className="cart-plus-minus-box"
+        //       type="text"
+        //       value={quantityCount}
+        //       readOnly
+        //     />
+        //     <button
+        //       onClick={() =>
+        //         setQuantityCount(
+        //           quantityCount < productStock - productCartQty
+        //             ? quantityCount + 1
+        //             : quantityCount
+        //         )
+        //       }
+        //       className="inc qtybutton"
+        //     >
+        //       +
+        //     </button>
+        //   </div>
+        //   <div className="pro-details-cart btn-hover">
+        //     {productStock && productStock > 0 ? (
+        //       <button
+        //         onClick={() =>
+        //           addToCart(
+        //             product,
+        //             addToast,
+        //             quantityCount,
+        //             selectedProductColor,
+        //             selectedProductSize
+        //           )
+        //         }
+        //         disabled={productCartQty >= productStock}
+        //       >
+        //         {" "}
+        //         Add To Cart{" "}
+        //       </button>
+        //     ) : (
+        //       <button disabled>Out of Stock</button>
+        //     )}
+        //   </div>
+        //   <div className="pro-details-wishlist">
+        //     <button
+        //       className={wishlistItem !== undefined ? "active" : ""}
+        //       disabled={wishlistItem !== undefined}
+        //       title={
+        //         wishlistItem !== undefined
+        //           ? "Added to wishlist"
+        //           : "Add to wishlist"
+        //       }
+        //       onClick={() => addToWishlist(product, addToast)}
+        //     >
+        //       <i className="pe-7s-like" />
+        //     </button>
+        //   </div>
+        //   <div className="pro-details-compare">
+        //     <button
+        //       className={compareItem !== undefined ? "active" : ""}
+        //       disabled={compareItem !== undefined}
+        //       title={
+        //         compareItem !== undefined
+        //           ? "Added to compare"
+        //           : "Add to compare"
+        //       }
+        //       onClick={() => addToCompare(product, addToast)}
+        //     >
+        //       <i className="pe-7s-shuffle" />
+        //     </button>
+        //   </div>
+        // </div>
+        ""
       )}
       {product.category ? (
         <div className="pro-details-meta">
@@ -270,11 +271,11 @@ const ProductDescriptionInfo = ({
       <div className="pro-details-social">
         <ul>
           <li>
-            <a href="//facebook.com">
-              <i className="fa fa-facebook" />
+            <a className="d-flex" href="https://instagram.com/exbouquet?igshid=MzRlODBiNWFlZA==" target="_blank">
+              <i style={{fontSize: 25}} className="fa fa-instagram" /> <span> Instagram</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="//dribbble.com">
               <i className="fa fa-dribbble" />
             </a>
@@ -293,7 +294,7 @@ const ProductDescriptionInfo = ({
             <a href="//linkedin.com">
               <i className="fa fa-linkedin" />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

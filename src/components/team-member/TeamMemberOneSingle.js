@@ -10,7 +10,8 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
         <div className="team-img">
           <img
             src={process.env.PUBLIC_URL + data.image}
-            alt=""
+            alt="team-img"
+            style={{maxHeight: 350}}
             className="img-fluid"
           />
           <div className="team-action">

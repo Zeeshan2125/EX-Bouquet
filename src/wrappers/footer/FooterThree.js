@@ -31,11 +31,9 @@ const FooterThree = ({
 
   return (
     <footer
-      className={`footer-area ${
-        backgroundColorClass ? backgroundColorClass : ""
-      } ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`footer-area ${backgroundColorClass ? backgroundColorClass : ""
+        } ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container">
         <div className="footer-border pt-100">
@@ -81,23 +79,12 @@ const FooterThree = ({
             <div className="col-lg-2 col-md-4 col-sm-4">
               <div className="footer-widget mb-30 ml-50">
                 <div className="footer-title">
-                  <h3>USEFUL LINKS</h3>
+                  <h3>shop with us</h3>
                 </div>
                 <div className="footer-list">
                   <ul>
                     <li>
-                      <Link to={process.env.PUBLIC_URL + "#/"}>Returns</Link>
-                    </li>
-                    <li>
-                      <Link to={process.env.PUBLIC_URL + "#/"}>
-                        Support Policy
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={process.env.PUBLIC_URL + "#/"}>Size guide</Link>
-                    </li>
-                    <li>
-                      <Link to={process.env.PUBLIC_URL + "#/"}>FAQs</Link>
+                      <Link to={`/shop`}>Shop</Link>
                     </li>
                   </ul>
                 </div>
@@ -109,44 +96,17 @@ const FooterThree = ({
                   <h3>FOLLOW US</h3>
                 </div>
                 <div className="footer-list">
-                  <ul>
-                    <li>
-                      <a
-                        href="//www.facebook.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Facebook
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="//www.twitter.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="//www.instagram.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Instagram
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="//www.youtube.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Youtube
-                      </a>
-                    </li>
-                  </ul>
+                <ul>
+                  <li>
+                    <a
+                      href="https://instagram.com/exbouquet?igshid=MzRlODBiNWFlZA=="
+                      target="_blank"
+                      rel="instagram link"
+                    >
+                      Instagram <i  className="fa fa-instagram" />
+                    </a>
+                  </li>
+                </ul>
                 </div>
               </div>
             </div>

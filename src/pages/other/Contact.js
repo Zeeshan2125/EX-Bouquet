@@ -26,9 +26,15 @@ const Contact = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <div className="contact-area pt-100 pb-100">
-          <div className="container">
+          <div className="container ">
+            <div className="welcome-content text-center mb-5">
+              <h1>Contact Us</h1>
+              <p>We value your time and strive to provide exceptional customer service. No matter how you choose to contact us, we assure you that your message will be handled with care and attention. We look forward to hearing from you and serving your floral needs with utmost dedication and professionalism.
+
+                Thank you for considering Ex Bouquet. We appreciate your trust and the opportunity to be a part of your special moments.</p>
+            </div>
             <div className="contact-map mb-10">
-              <LocationMap latitude="47.444" longitude="-122.176" />
+              <LocationMap latitude="25.276987" longitude="55.296249" />
             </div>
             <div className="custom-row-2">
               <div className="col-lg-4 col-md-5">
@@ -38,8 +44,7 @@ const Contact = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+971 58 253 9676</p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -48,8 +53,8 @@ const Contact = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:yourname@email.com">
-                          yourname@email.com
+                        <a href="mailto: zali86369@gmail.com">
+                          zali86369@gmail.com
                         </a>
                       </p>
                       <p>
@@ -59,7 +64,7 @@ const Contact = ({ location }) => {
                       </p>
                     </div>
                   </div>
-                  <div className="single-contact-info">
+                  {/* <div className="single-contact-info">
                     <div className="contact-icon">
                       <i className="fa fa-map-marker" />
                     </div>
@@ -67,33 +72,17 @@ const Contact = ({ location }) => {
                       <p>Address goes here, </p>
                       <p>street, Crossroad 123.</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="contact-social text-center">
                     <h3>Follow Us</h3>
                     <ul>
                       <li>
-                        <a href="//facebook.com">
-                          <i className="fa fa-facebook" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//pinterest.com">
-                          <i className="fa fa-pinterest-p" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//thumblr.com">
-                          <i className="fa fa-tumblr" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//vimeo.com">
-                          <i className="fa fa-vimeo" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//twitter.com">
-                          <i className="fa fa-twitter" />
+                        <a
+                          href="https://instagram.com/exbouquet?igshid=MzRlODBiNWFlZA=="
+                          target="_blank"
+                          rel="instagram link"
+                        >
+                          Instagram <i className="fa fa-instagram" />
                         </a>
                       </li>
                     </ul>

@@ -260,6 +260,20 @@
   }
 }
 
+@media (max-width: 480px) {
+  .hero-slider-mobile-img{
+    max-width: 370px !important
+  }
+}
+
+@media (max-width: 850px) {
+  .hero-slider-mobile-img{
+    max-width: 370px !important
+  }
+}
+
+
+
 .nav-style-1 {
   .ht-swiper-button-nav {
     font-size: 80px;

@@ -6,39 +6,31 @@ import { multilanguage } from "redux-multilanguage";
 const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
   return (
     <div
-      className={` ${
-        sidebarMenu
+      className={` ${sidebarMenu
           ? "sidebar-menu"
           : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
-      } `}
+        } `}
     >
       <nav>
         <ul>
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {strings["home"]}
-              
+
             </Link>
-            
+
           </li>
-         
+
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop"}>
               {strings["collection"]}
             </Link>
           </li>
           <li>
-                <Link to={process.env.PUBLIC_URL + "/about"}>
-                  {strings["about_us"]}
-                </Link>
-              </li>
-
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog"}>
-                  {strings["blog"]}
-                </Link>
-              </li>
-          
+            <Link to={process.env.PUBLIC_URL + "/about"}>
+              {strings["about_us"]}
+            </Link>
+          </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {strings["contact_us"]}

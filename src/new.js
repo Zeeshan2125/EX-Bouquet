@@ -33,15 +33,6 @@
 
               {/* Blog pages */}
 
-              <Route
-                path={process.env.PUBLIC_URL + "/blog"}
-                component={BlogRightSidebar}
-              />
-              <Route
-                path={process.env.PUBLIC_URL + "/blog"}
-                component={BlogDetailsStandard}
-              />
-
               {/* Other pages */}
               <Route
                 path={process.env.PUBLIC_URL + "/about"}

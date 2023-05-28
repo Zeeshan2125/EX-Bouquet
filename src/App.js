@@ -9,10 +9,6 @@ import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
 const HomePlants = lazy(() => import("./pages/home/HomePlants"));
 const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
-const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar"));
-const BlogDetailsStandard = lazy(() =>
-  import("./pages/blog/BlogDetailsStandard")
-);
 const Product = lazy(() => import("./pages/shop-product/Product"));
 
 // other pages
@@ -45,7 +41,7 @@ const App = (props) => {
     <ToastProvider placement="bottom-left">
       <BreadcrumbsProvider>
         <Router>
-         
+
           <ScrollToTop>
             <Suspense
               fallback={
@@ -58,9 +54,9 @@ const App = (props) => {
               }
             >
 
-<Switch>
+              <Switch>
 
-              <Route
+                <Route
                   path={process.env.PUBLIC_URL + "/"}
                   component={HomePlants}
                   exact
@@ -69,23 +65,15 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/shop"}
                   component={ShopGridStandard}
                 />
-            
-                 <Route
-                  path={process.env.PUBLIC_URL + "/blog"}
-                  component={BlogRightSidebar}
-                />
-                  <Route
+
+                <Route
                   path={process.env.PUBLIC_URL + "/product/:id"}
                   render={(routeProps) => (
                     <Product {...routeProps} key={routeProps.match.params.id} />
                   )}
                 />
-               <Route
-                  path={process.env.PUBLIC_URL + "/blog-details-standard"}
-                  component={BlogDetailsStandard}
-                />
-                 {/* Other pages */}
-                 <Route
+                {/* Other pages */}
+                <Route
                   path={process.env.PUBLIC_URL + "/about"}
                   component={About}
                 />
@@ -125,10 +113,10 @@ const App = (props) => {
                 />
 
                 <Route exact component={NotFound} />
- </Switch>
+              </Switch>
             </Suspense>
           </ScrollToTop>
-         
+
         </Router>
       </BreadcrumbsProvider>
     </ToastProvider>

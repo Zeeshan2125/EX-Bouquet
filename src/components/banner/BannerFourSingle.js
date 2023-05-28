@@ -15,7 +15,7 @@ const BannerFourSingle = ({ data, spaceBottomClass }) => {
           flexWrap: "wrap"
         }}
       >
-        <Link to={process.env.PUBLIC_URL + data.link}>
+        <Link to={`/shop`}>
           <img src={process.env.PUBLIC_URL + data.image} style={{ maxWidth: "220px", minWidth: "220px" }} alt="category" />
         </Link>
         <div className="banner-content">
@@ -23,7 +23,7 @@ const BannerFourSingle = ({ data, spaceBottomClass }) => {
           <h4>
             {data.subtitle}<br></br> <span>{data.price}</span>
           </h4>
-          <Link to={process.env.PUBLIC_URL + data.link}>
+          <Link to={`/shop`}>
             <i className="fa fa-long-arrow-right" />
           </Link>
         </div>

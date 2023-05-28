@@ -15,7 +15,7 @@ const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
         {/* section title */}
         <SectionTitleTwo
           titleText="Team Members"
-          subTitleText="Lorem ipsum dolor sit amet conse ctetu."
+          subTitleText="We are a passionate group of talented florists, designers, and customer service professionals dedicated to creating exceptional floral experiences. With our meticulous attention to detail and commitment to providing the highest level of service, we strive to exceed your expectations. From crafting breathtaking arrangements to delivering prompt and reliable service, our team is here to make your floral journey unforgettable. Join us as we celebrate the beauty of flowers and create cherished moments together."
           positionClass="text-center"
           spaceClass="mb-60"
         />

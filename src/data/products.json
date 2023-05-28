@@ -1,5 +1,4 @@
 [
- 
   {
     "id": "26",
     "sku": "asdf148",
@@ -9,8 +8,12 @@
     "new": false,
     "rating": 5,
     "saleCount": 90,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 15,
     "image": [
       "/assets/img/product/plants/1.jpg"
@@ -27,8 +30,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 190,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 25,
     "image": [
       "/assets/img/product/plants/2.jpg"
@@ -45,8 +52,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 90,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 20,
     "image": [
       "/assets/img/product/plants/3.jpg"
@@ -63,8 +74,12 @@
     "new": false,
     "rating": 5,
     "saleCount": 100,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 40,
     "image": [
       "/assets/img/product/plants/4.png"
@@ -81,8 +96,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 120,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 45,
     "image": [
       "/assets/img/product/plants/5.png"
@@ -99,8 +118,12 @@
     "new": false,
     "rating": 4,
     "saleCount": 20,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 5,
     "image": [
       "/assets/img/product/plants/6.jpg"
@@ -117,8 +140,12 @@
     "new": true,
     "rating": 5,
     "saleCount": 25,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 7,
     "image": [
       "/assets/img/product/plants/7.jpg"
@@ -135,8 +162,12 @@
     "new": true,
     "rating": 4,
     "saleCount": 15,
-    "category": ["plant"],
-    "tag": ["plant"],
+    "category": [
+      "plant"
+    ],
+    "tag": [
+      "plant"
+    ],
     "stock": 6,
     "image": [
       "/assets/img/product/plants/8.jpg"
@@ -144,185 +175,180 @@
     "shortDescription": "Vase with 20 Stems of Calla Lilies.",
     "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
- 
   {
     "id": "44",
     "sku": "asdf166",
-    "name": "Lorem ipsum flower one",
-    "price": 1.5,
-    "discount": 20,
+    "name": "Bouquet Of Pink Roses",
+    "price": 999,
+    "discount": 5,
     "new": true,
     "rating": 4,
     "saleCount": 10,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 6,
     "image": [
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg"
+      "/assets/img/product/flowers/1.png"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "Bouquet of 60 Pink Roses.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "45",
     "sku": "asdf167",
-    "name": "Lorem ipsum flower two",
-    "price": 6.5,
-    "discount": 30,
+    "name": "Bouquet Of Pink Hydrangea",
+    "price": 1420,
+    "discount": 10,
     "new": false,
     "rating": 5,
     "saleCount": 5,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 7,
     "image": [
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg"
+      "/assets/img/product/flowers/2.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "Bouquet of 12 Stems of Pink Hydrangea with fillers beautifully wrapped in paper packing.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "46",
     "sku": "asdf168",
-    "name": "Lorem ipsum flower three",
-    "price": 3.5,
+    "name": "White Roses In A Vase",
+    "price": 1635,
     "discount": 5,
-    "new": true,
-    "rating": 4,
+    "new": false,
+    "rating": 5,
     "saleCount": 7,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 10,
     "image": [
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg"
+      "/assets/img/product/flowers/3.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "100 stems of White Roses in a vase.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "47",
     "sku": "asdf169",
-    "name": "Lorem ipsum flower four",
-    "price": 4.5,
-    "discount": 20,
+    "name": "Bouquet Of Mix Color Roses",
+    "price": 860,
+    "discount": 0,
     "new": true,
     "rating": 5,
     "saleCount": 10,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 6,
     "image": [
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg"
+      "/assets/img/product/flowers/4.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "Bouquet of 50 stems mixed colour roses with fillers.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "48",
     "sku": "asdf170",
-    "name": "Lorem ipsum flower five",
-    "price": 7.5,
-    "discount": 30,
-    "new": true,
-    "rating": 3,
-    "saleCount": 4,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "name": "White Phalaenopsis Orchid Plant",
+    "price": 999,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 17,
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 7,
     "image": [
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg"
+      "/assets/img/product/flowers/5.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "3 stems of White Phalaenopsis Orchid Plant in a nice Golden Metals container (Images provided on the website are for reference purposes, Pot design may vary).",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "49",
     "sku": "asdf171",
-    "name": "Lorem ipsum flower six",
-    "price": 4.5,
-    "discount": 10,
-    "new": false,
+    "name": "Pink & Red Roses In Box",
+    "price": 1070,
+    "discount": 2,
+    "new": true,
     "rating": 5,
     "saleCount": 2,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 10,
     "image": [
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg"
+      "/assets/img/product/flowers/6.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "45 stems of pink roses and 20 stems of red roses with fillers in heart shape box.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "50",
     "sku": "asdf172",
-    "name": "Lorem ipsum flower seven",
-    "price": 3.5,
-    "discount": 20,
+    "name": "Red & Pink Roses In Box",
+    "price": 1077,
+    "discount": 8,
     "new": true,
     "rating": 5,
     "saleCount": 5,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 6,
     "image": [
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg"
+      "/assets/img/product/flowers/7.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "45 stems of Red roses and 15 stems of Pink roses in a heart shape box.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   },
   {
     "id": "51",
     "sku": "asdf173",
-    "name": "Lorem ipsum flower eight",
-    "price": 2.5,
-    "discount": 30,
+    "name": "Red & Pink Roses In Heart Shape",
+    "price": 899,
+    "discount": 0,
     "new": true,
     "rating": 5,
     "saleCount": 9,
-    "category": ["flower"],
-    "tag": ["flower"],
+    "category": [
+      "flower"
+    ],
+    "tag": [
+      "flower"
+    ],
     "stock": 10,
     "image": [
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg"
+      "/assets/img/product/flowers/8.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "50 Red And Pink Roses In Heart Shape Arrangement.",
+    "fullDescription": "As your flowers arrive, arrange for a vase(if one has not come with the flowers) to keep the flowers in and make sure that it is thoroughly clean, as bacteria makes flowers wilt faster. Fill your vase with lukewarm water up to just more than half of the length of the vase. Before you place the flowers in the vase, cut about 2-3 centimetres from the bottom of the stems at a 45-degree angle. Place your flowers in a cool place as the lukewarm water helps the stems absorb water easily and the cool air keeps the flowers fresh. Change the water every other day as needed to prolong the life of the flowers. Keep your flowers away from direct sunlight, windy areas, and fruits, especially apples. The ethylene gas released from the fruits causes the flowers to wilt faster. Care for the flowers and let them bloom longer for you! Enjoy the beauty of flowers to the fullest!."
   }
 ]
- 
- 
- 
- 

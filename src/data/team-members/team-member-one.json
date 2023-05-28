@@ -5,7 +5,7 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr.Mike Banding",
+    "name": "Mr.Yash",
     "position": "Manager"
   },
   {
@@ -14,25 +14,25 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr.Peter Pan",
+    "name": "Ms.Tahira",
     "position": "Developer"
   },
   {
     "id": "3",
-    "image": "/assets/img/team/team-2.jpg",
+    "image": "/assets/img/team/team-2.jpeg",
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Ms.Sophia",
+    "name": "Ms.Maria",
     "position": "Designer"
   },
   {
     "id": "4",
-    "image": "/assets/img/team/team-4.jpg",
+    "image": "/assets/img/team/team-4.jpeg",
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr.John Lee",
+    "name": "Mr.Zeeshan",
     "position": "Chairman"
   }
 ]

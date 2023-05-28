@@ -392,33 +392,6 @@ const MobileNavMenu = ({ strings }) => {
             </li>
           </ul>
         </li>
-        <li className="menu-item-has-children">
-          <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-            {strings["blog"]}
-          </Link>
-          <ul className="sub-menu">
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                {strings["blog_standard"]}
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-no-sidebar"}>
-                {strings["blog_no_sidebar"]}
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-right-sidebar"}>
-                {strings["blog_right_sidebar"]}
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                {strings["blog_details_standard"]}
-              </Link>
-            </li>
-          </ul>
-        </li>
         <li>
           <Link to={process.env.PUBLIC_URL + "/contact"}>
             {strings["contact_us"]}

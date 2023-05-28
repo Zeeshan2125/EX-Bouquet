@@ -31,10 +31,10 @@ const HeroSliderFourSingle = ({ data, sliderClass }) => {
           <div className="col-lg-6 col-md-6 col-12 col-sm-6">
             <div className="slider-singleimg-hm11 slider-animated-1">
               <img
-                className="animated" 
+                className="animated hero-slider-mobile-img" 
                 style={{maxWidth: "500px"}}
                 src={process.env.PUBLIC_URL + data.image}
-                alt=""
+                alt="slider img"
               />
             </div>
           </div>
