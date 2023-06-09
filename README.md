@@ -22,7 +22,7 @@
 
 
 # Demo
-
+https://6473bf9b2ece5300080005c5--deluxe-pika-cb7e1d.netlify.app/
 
 ## Run Locally
 
@@ -35,7 +35,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd flower-for-thought-ecommerce-react
+  cd EX-Bouquet
 ```
 
 Install dependencies
